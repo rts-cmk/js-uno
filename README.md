@@ -4,6 +4,8 @@ js-uno er en javascript udgave af kortspillet Uno.
 
 Formålet med projektet er at demonstrere hvordan classes kan bruges i javascript.
 
+Live demo: https://rts-cmk.github.io/js-uno/
+
 ## Classes
 ### UnoCard:
 Denne klasse repræsenterer et Uno kort. constructoren tager følgende parametre:
