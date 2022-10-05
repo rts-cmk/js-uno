@@ -86,8 +86,8 @@ export default class UnoDeck {
         this.#cards = [...redCards, ...greenCards, ...blueCards, ...yellowCards, ...otherCards];
     }
 
-    playableCards(currentCard) {
-        return this.#cards.filter(card => card.isPlayableOn(currentCard));
+    playableCards(topCard) {
+        return this.#cards.filter(card => card.isPlayableOn(topCard));
     }
 
     forEach(callback) {
